@@ -1,0 +1,23 @@
+<header class="flex items-center justify-between text-xl">
+  <h1 class="font-bold font-mono text-2xl text-slate-800 dark:text-white">
+    <a href="{{ '/' | url }}" class="group flex items-center">
+      <span>{{ meta.title }}</span>
+    </a>
+  </h1>
+
+  <ul class="flex items-center space-x-8">
+    {%- for entry in collections.all | eleventyNavigation | multiLangNav(page.url) %}
+      <li class="{% if entry.url == page.url %} text-slate-900 dark:text-white underline decoration-2 decoration-current/[.5] underline-offset-8{% endif %}"><a href="{{ entry.url | url }}" class="hover:text-slate-900 hover:dark:text-white transition">{{ entry.title }}</a></li>
+    {%- endfor %}
+    <li>
+      <button type="button" class="w-10 h-10 p-1 rounded-md hover:text-slate-900 hover:dark:text-white transition" onclick="toggleMode()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+      </button>
+    </li>
+    {%- for l in languages | onlyOtherLanguages(page.url) %}
+      <li><a class="hover:text-slate-900 hover:dark:text-white transition" href="{{ l.path }}">{{ l.label }}</a></li>
+    {%- endfor %}
+  </ul>
+</header>

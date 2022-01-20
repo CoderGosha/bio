@@ -1,0 +1,37 @@
+{
+  "name": "bio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --config=prebuilt/.eleventy.js --serve",
+    "build": "npx @11ty/eleventy --config=prebuilt/.eleventy.js",
+    "debug": "DEBUG=* npx @11ty/eleventy --config=prebuilt/.eleventy.js --dryrun",
+    "prebuilt": "npx b4d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderGosha/bio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderGosha/bio/issues"
+  },
+  "homepage": "https://github.com/CoderGosha/bio#readme",
+  "devDependencies": {
+    "b4d": "^1.1.2",
+    "@11ty/eleventy": "1.0.0",
+    "@11ty/eleventy-navigation": "0.3.2",
+    "@tailwindcss/typography": "^0.5.0",
+    "autoprefixer": "^10.4.1",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.8"
+  }
+}
