@@ -2,7 +2,7 @@ const fs = require("fs");
 const markdownItAnchor = require("markdown-it-anchor");
 const languages = require('./languages.json')
 
-const PATH_PREFIX = '/'
+const PATH_PREFIX = 'bio'
 const OUTPUT_DIR = 'dist'
 const INPUT_DIR = 'prebuilt'
 
