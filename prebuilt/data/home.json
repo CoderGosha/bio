@@ -1,0 +1,14 @@
+{
+  "name": "Имя Неимя",
+  "header": "Супер крутой чел",
+  "links": [
+    {
+      "title": "LinkedIn",
+      "url": "#"
+    },
+    {
+      "title": "Twitter",
+      "url": "#"
+    }
+  ]
+}
