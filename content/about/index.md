@@ -17,11 +17,11 @@
 
 ## Horizontal Rules
 
+***
+
 ___
 
 ---
-
-***
 
 
 ## Emphasis
