@@ -19,4 +19,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./dist
+          cname: codergosha.com
           github_token: ${{ secrets.GITHUB_TOKEN }}
