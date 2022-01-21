@@ -3,7 +3,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const languages = require('./languages.json')
 
 function fixPath(path) {
-  return path.replace('//', '/')
+  return path.replace(/\/{2,}/g, '/')
 }
 
 module.exports = function(eleventyConfig) {

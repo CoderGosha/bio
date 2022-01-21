@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "B4D_PATH_PREFIX=bio npx @11ty/eleventy --config=prebuilt/.eleventy.js --serve",
-    "build": "B4D_PATH_PREFIX=bio npx @11ty/eleventy --config=prebuilt/.eleventy.js",
-    "debug": "DEBUG=* B4D_PATH_PREFIX=bio npx @11ty/eleventy --config=prebuilt/.eleventy.js --dryrun",
+    "serve": "npx @11ty/eleventy --config=prebuilt/.eleventy.js --serve",
+    "build": "npx @11ty/eleventy --config=prebuilt/.eleventy.js",
+    "debug": "DEBUG=* npx @11ty/eleventy --config=prebuilt/.eleventy.js --dryrun",
     "prebuilt": "npx b4d"
   },
   "repository": {
