@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run prebuilt && npx @11ty/eleventy --config=prebuilt/.eleventy.js --serve",
     "serve": "npx @11ty/eleventy --config=prebuilt/.eleventy.js --serve",
     "build": "npx @11ty/eleventy --config=prebuilt/.eleventy.js",
     "debug": "DEBUG=* npx @11ty/eleventy --config=prebuilt/.eleventy.js --dryrun",
