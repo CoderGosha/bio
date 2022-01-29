@@ -1,7 +1,6 @@
 [
   {
     "name": "C#",
-    "index": 1,
     "data": [
       ".NET Core",
       "EF Core, Dapper, SQL",
@@ -13,7 +12,6 @@
   },
   {
     "name": "Python",
-    "index": 2,
     "data": [
       "Django, Django-rest (nginx + gunicorn)",
       "Web Api (rest), WebSocket, asyncio",
@@ -23,7 +21,6 @@
   },
   {
     "name": "Database",
-    "index": 3,
     "data": [
       "Oracle Database",
       "MSSQL",
@@ -34,7 +31,6 @@
   },
   {
     "name": "CI/CD",
-    "index": 4,
     "data": [
       "Docker/Docker Compose",
       "TFS/GitHub/gogs + drone"
@@ -42,7 +38,6 @@
   },
   {
     "name": "Hardware & virtualization",
-    "index": 5,
     "data": [
       "DigitalOcean",
       "Azure",
