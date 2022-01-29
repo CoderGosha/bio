@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Engy",
+    "index": 1,
+    "work_period": "2020-2022",
+    "site": "http://www.en-gy.ru/",
+    "post": "Старший backend-разработчик",
+    "work_type": "Удаленная работа",
+    "descriptions": [
+      {
+        "description": "Разработка высоконагруженных API (ASP .Net Core) для системы доставки посылок (постоматов) и интеграции с партнерами. Портирование ядра с ASP .NET на ASP .NET Core и разработка новых модулей. Интеграционные тесты, оптимизация скорости выполнения и потребления ресурсов.\nАктивная поддержка кода для Windows (IIS + Docker) и Linux (Nginx + Docker) ",
+        "technology": "TFS, Git.\nASP .Core, EF Core, Dapper, MSSQL, PostgreeSQL, Docker"
+      },
+      {
+        "description": "Пилотный проект клиента для постомата (Linux) на Python с использованием QT. Реализация клиента для встраиваемой системы и ограниченными ресурсами.\nУправление ячейками, банковский процессинг, получение и выдача посылок. ",
+        "technology": "Python, Sqlite, PySide"
+      }
+    ]
+  },
+  {
+    "name": "ПСС. Софтвер",
+    "index": 2,
+    "work_period": "2018-2020",
+    "site": "http://itpss.ru/",
+    "post": "Старший инженер-программист",
+    "work_type": "Удалённая работа ",
+    "descriptions": [
+      {
+        "description": "Поддержка и разработка OPC UA Server (OPC Unified Architecture. NET Standard), а также микросервисами на ASP .Core для системы продажи билетов.\nВыполнял портирование и перенос приложений на платформу .NET Core для последующего запуска на ОС  Linux. На проекте используем систему непрерывного поставки кода  Azure DevOps Service.",
+        "technology": "TFS, Git.\nASP .Core, EF Core, MSSQL, PostgreeSQL, Docker, RabbitMQ"
+      }
+    ]
+  },
+  {
+    "name": "Дата-Центр Автоматика",
+    "index": 3,
+    "work_period": "2014-2018",
+    "site": "https://dc.ru/",
+    "post": "Инженер-программист",
+    "work_type": "Офис",
+    "descriptions": [
+      {
+        "description": "Разработка производственных систем в металлургии, работающих в режиме реального времени. \nРабота с физическими устройствами, сбор данных в реальном времени, аналитика производственных процессов и разработка модулей для системы слежения за металлом. \nСистема сбора данных с весоизмерительных устройств. ",
+        "technology": "Git, SVN\nASP.NET, EF, MVC, WCF, REST, SOAP, SQL, MS SQL, Oracle,  UnitTests, JavaScript, С#, С++, HTML, CSS "
+      }
+    ]
+  },
+  {
+    "name": "Череповецкий государственный университет",
+    "index": 4,
+    "work_period": "2009-2014 ",
+    "site": "https://www.chsu.ru/",
+    "post": "Специалитет",
+    "work_type": "Обучение",
+    "descriptions": [
+      {
+        "description": "Программное обеспечение вычислительной техники и автоматизированных систем (специалист)",
+        "technology": ""
+      }
+    ]
+  }
+]
