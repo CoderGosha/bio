@@ -6,7 +6,7 @@
     "order": 3
   },
   "name": "Игорь Пахолков",
-  "header": "Старший Fullstack разработчик на C# .NET и Python",
+  "header": "Старший backend разработчик на C# .NET и Python",
   "links": [
     {
     "title": "LinkedIn",
