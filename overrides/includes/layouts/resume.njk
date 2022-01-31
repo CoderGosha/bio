@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+---
+<div class="flex flex-col items-start flex-grow">
+  <div class="text-xl my-8 space-y-2 text-slate-800 dark:text-white">
+    <h2 class="font-medium text-6xl">{{ name }}</h2>
+    <p class="leading-relaxed">{{ header }}</p>
+    <div class="prose prose-base dark:prose-invert">
+      {{ content | safe }}
+    </div>
+  </div>
+  
+  <ul class="flex space-x-8 text-3xl my-10">
+    {% for link in links %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <div class="flex space-x-10">
+    <div class="flex-shrink-0">
+      <h2 class="text-4xl mb-8 text-black">Опыт</h2>
+      {% for job in jobs %}
+        <div class="mb-8 max-w-prose">
+          <span>{{ job.work_period }}</span>
+          <h3 class="text-2xl font-medium text-black">{{ job.name }}</h3>
+          <div class="flex flex-col">
+            <span>{{ job.site }}</span>
+            <span>{{ job.post }}</span>
+            <span>{{ job.work_type }}</span>
+          </div>
+          {% for description in job.descriptions %}
+            <div class="my-2">
+              <p>{{ description.description }}</p>
+              <span>{{ description.technology }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h2 class="text-4xl mb-8 text-black">Навыки</h2>
+      
+      {% for skill in skills %}
+        <div class="my-4">
+          <span class="block text-xl text-black font-medium mb-4">{{ skill.name }}</span>
+          {% for item in skill.data %}
+            <span class="inline-flex border rounded-md py-2 px-4 mr-2 mb-2">{{ item }}</span>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
