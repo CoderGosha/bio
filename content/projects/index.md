@@ -6,17 +6,8 @@
     "order": 4
   },
   "name": "Игорь Пахолков",
-  "header": "Старший backend разработчик на C# .NET и Python",
-  "links": [
-    {
-    "title": "LinkedIn",
-    "url": "https://www.linkedin.com/in/codergosha/"
-    },
-    {
-    "title": "Telegram",
-    "url": "https://t.me/CoderGosha"
-    }
-  ]
+  "header": "Старший backend разработчик"
 }
 ---
 
+TODO
