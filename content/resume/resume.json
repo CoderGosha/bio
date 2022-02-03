@@ -42,17 +42,19 @@
           "technology": "Git, SVN\nASP.NET, EF, MVC, WCF, REST, SOAP, SQL, MS SQL, Oracle,  UnitTests, JavaScript, С#, С++, HTML, CSS "
         }
       ]
-    },
+    }
+  ],
+  "edu": [
     {
       "name": "Череповецкий государственный университет",
       "work_period": "2009-2014 ",
       "site": "https://www.chsu.ru/",
-      "post": "Специалитет",
+      "post": "Инженер-программист",
       "work_type": "Обучение",
       "descriptions": [
         {
-          "description": "Программное обеспечение вычислительной техники и автоматизированных систем (специалист)",
-          "technology": ""
+          "description": "Программное обеспечение вычислительной техники и автоматизированных систем",
+          "result": "ВКР: Data Scales - система сбора информации с весоизмерительных устройств и контроллеров"
         }
       ]
     }
@@ -63,19 +65,27 @@
       "index": 1,
       "data": [
         ".NET Core",
-        "EF Core, Dapper, SQL",
+        "EF Core",
+        "Dapper",
+        "SQL",
         "Миграция .NET Framework -> .NET Core",
-        "Web API (Swagger, Open API), Async/Await",
+        "Web API",
+        "Swagger/Open api",
+        "async/await",
         "RabbitMQ",
-        "Andriod, Smart Watch"
+        "Andriod",
+        "Smart Watch"
       ]
     },
     {
       "name": "Python",
       "index": 2,
       "data": [
-        "Django, Django-rest (nginx + gunicorn)",
-        "Web Api (rest), WebSocket, asyncio",
+        "Django",
+        "Django-rest",
+        "Web Api",
+        "WebSocket",
+        "asyncio",
         "QT",
         "Selenuim"
       ]
@@ -88,15 +98,18 @@
         "MSSQL",
         "PostgreSQL",
         "MongoDB",
-        "RabbitMQ"
+        "SQLite"
       ]
     },
     {
       "name": "CI/CD",
       "index": 4,
       "data": [
-        "Docker/Docker Compose",
-        "TFS/GitHub/gogs + drone"
+        "Docker",
+        "Docker Compose",
+        "TFS",
+        "GitHub",
+        "Gogs/Drone"
       ]
     },
     {
