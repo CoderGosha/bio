@@ -5,34 +5,34 @@ layout: layouts/base.njk
 {{ content | safe }}
 
 
-<div class="md:flex items-start flex-grow">
-    <div class="md:flex-auto md:w-2/3 mr-8">
-        <h2 class="text-4xl mb-8 text-black dark:text-slate-200">Опыт</h2>
+<div class="md:flex items-start flex-grow md:mt-8 mt-4">
+    <div class="md:flex-auto md:w-2/3 md:mr-8">
+        <h2 class="text-2xl md:text-4xl md:mb-8 text-black dark:text-slate-200">Опыт</h2>
         <ul class="divide-y divide-slate-100">
             {% for job in jobs %}
-            <article class="flex items-start space-x-6 p-6">
+            <article class="md:flex items-start space-x-6 md:p-6 mt-2">
                 <div class="min-w-0 relative flex-auto">
-                    <h2 class="font-semibold truncate pr-20 text-xl text-black font-medium mb-2 dark:text-slate-300">
+                    <h2 class="font-semibold pr-20 text-xl text-black font-medium mb-2 dark:text-slate-300">
                         {{ job.name }}
                     </h2>
 
-                    <dl class="mt-2 flex flex-wrap text-sm leading-6 font-medium">
-                        <div class="absolute top-0 right-0 flex items-center space-x-2">
+                    <dl class="mt-2 md:flex md:flex-wrap text-sm leading-6 font-medium">
+                        <div class="md:absolute top-0 right-0 flex items-center space-x-2">
 
                             <dd class="text-sky-500 dark:text-sky-400">{{ job.work_type }}
                             </dd>
                         </div>
                         <div>
                             <dt class="sr-only">Rating</dt>
-                            <dd class="px-1.5 ring-1 ring-slate-200 rounded text-lg text-gray-700 dark:text-gray-50">{{ job.post }}</dd>
+                            <dd class="md:px-1.5 md:ring-1 ring-slate-200 rounded md:text-lg text-gray-700 dark:text-gray-50">{{ job.post }}</dd>
                         </div>
-                        <div class="absolute right-0 flex items-center space-x-2 text-right text-lg">
+                        <div class="md:absolute right-0 flex items-center space-x-2 text-right md:text-lg">
 
                             <dd>{{ job.work_period }}
                             </dd>
                         </div>
                         {% for description in job.descriptions %}
-                        <div class="flex-none w-full mt-2 font-normal text-lg">
+                        <div class="w-full mt-2 font-normal md:text-lg">
                             <p class="text-left mx-4">{{ description.description }}</p>
                             <span class="text-slate-700 dark:text-slate-300">Технолгии: {{ description.technology }}</span>
                         </div>
@@ -42,14 +42,14 @@ layout: layouts/base.njk
             </article>
             {% endfor %}
             {% for e in edu %}
-            <article class="flex items-start space-x-6 p-6">
+            <article class="flex items-start space-x-6 md:p-6 mt-4">
                 <div class="min-w-0 relative flex-auto">
-                    <h2 class="font-semibold truncate pr-20 text-xl text-black font-medium mb-2 dark:text-slate-300">
+                    <h2 class="font-semibold pr-20 text-xl text-black font-medium mb-2 dark:text-slate-300">
                         {{ e.name }}
                     </h2>
 
-                    <dl class="mt-2 flex flex-wrap text-sm leading-6 font-medium">
-                        <div class="absolute top-0 right-0 flex items-center space-x-2">
+                    <dl class="mt-2 md:flex md:flex-wrap text-sm leading-6 font-medium">
+                        <div class="md:absolute top-0 right-0 flex items-center space-x-2">
 
                             <dt class="text-sky-500">
 
@@ -59,15 +59,15 @@ layout: layouts/base.njk
                         </div>
                         <div>
                             <dt class="sr-only">Rating</dt>
-                            <dd class="px-1.5 ring-1 ring-slate-200 rounded text-lg text-gray-700 dark:text-gray-50">{{ e.post }}</dd>
+                            <dd class="md:px-1.5 md:ring-1 ring-slate-200 rounded md:text-lg text-gray-700 dark:text-gray-50">{{ e.post }}</dd>
                         </div>
-                        <div class="absolute right-0 flex items-center space-x-2 text-right text-lg">
+                        <div class="md:absolute right-0 flex items-center space-x-2 text-right md:text-lg">
 
                             <dd>{{ e.work_period }}
                             </dd>
                         </div>
                         {% for description in e.descriptions %}
-                        <div class="flex-none w-full mt-2 font-normal text-lg">
+                        <div class="flex-none w-full mt-2 font-normal md:text-lg">
                             <p class="text-left mx-4">{{ description.description }}</p>
                             <span class="text-slate-700 dark:text-slate-300">{{ description.result }}</span>
                         </div>
@@ -79,7 +79,7 @@ layout: layouts/base.njk
         </ul>
     </div>
     <div class="md:flex-auto md:w-1/3 flex-wrap">
-        <h2 class="text-4xl mb-8 text-black dark:text-slate-200">Навыки</h2>
+        <h2 class="text-2xl md:text-4xl mb-4 md:mb-8 text-black dark:text-slate-200">Навыки</h2>
 
         {% for skill in skills %}
         <div class="my-4">
