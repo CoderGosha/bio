@@ -949,9 +949,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .right-0 {
   right: 0px;
 }
-.m-4 {
-  margin: 1rem;
-}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -988,11 +985,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-2 {
   margin-top: 0.5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .block {
   display: block;
@@ -1347,12 +1344,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 2rem;
   }
 
-  .md\:mt-8 {
-    margin-top: 2rem;
+  .md\:mr-4 {
+    margin-right: 1rem;
   }
 
-  .md\:mb-8 {
-    margin-bottom: 2rem;
+  .md\:ml-4 {
+    margin-left: 1rem;
   }
 
   .md\:flex {
