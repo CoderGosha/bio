@@ -25,7 +25,7 @@
       "work_type": "Удалённая работа ",
       "descriptions": [
         {
-          "description": "Поддержка и разработка OPC UA Server (OPC Unified Architecture. NET Standard), а также микросервисами на ASP .Core для системы продажи билетов.\nВыполнял портирование и перенос приложений на платформу .NET Core для последующего запуска на ОС  Linux. На проекте используем систему непрерывного поставки кода  Azure DevOps Service.",
+          "description": "Поддержка и разработка OPC UA Server (OPC Unified Architecture. NET Standard), а также микросервисами на ASP .Core для системы продажи билетов.\nВыполнял портирование и перенос приложений на платформу .NET Core для последующего запуска на ОС Linux. На проекте используем систему непрерывной поставки кода Azure DevOps Service.",
           "technology": "TFS, Git.\nASP .Core, EF Core, MSSQL, PostgreeSQL, Docker, RabbitMQ"
         }
       ]
