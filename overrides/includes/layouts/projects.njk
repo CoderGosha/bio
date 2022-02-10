@@ -13,12 +13,12 @@ layout: layouts/base.njk
 
                     {% for project in projects %}
                 <li class="text-sm leading-6">
-                    <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
+                    <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-4 md:p-6 dark:bg-slate-800 dark:highlight-white/5">
 
                         <div class="min-w-0 relative flex-auto">
                             <div class="md:flex md:flex-row">
                                 <div class="items-start flex-auto">
-                                    <h2 class="font-semibold pr-20 text-xl text-black dark:text-slate-300 font-medium mt-2 ">
+                                    <h2 class="font-semibold pr-20 text-xl text-black dark:text-slate-300 font-medium md:mb-4">
                                         {{ project.name }}
                                     </h2>
                                 </div>
@@ -35,6 +35,8 @@ layout: layouts/base.njk
                                         {{ project.site_name }}
                                     </a>
                                 </div>
+                                {% else %}
+
                                 {% endif %}
 
                             </div>
