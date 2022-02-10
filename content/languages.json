@@ -1,10 +1,30 @@
 [
   {
     "code": "ru",
-    "label": "Русский"
+    "label": "Русский",
+    "lang": "ru-RU",
+    "base_url": "https://codergosha.com/",
+    "title": "CoderGosha",
+    "description": "CoderGosha",
+    "logo": "CoderGosha",
+    "ui": {
+      "menu_mobile_title": "Меню",
+      "intl_mobile_title": "Выберите язык",
+      "dark_mode_toggle_title": "Переключатель темной и светлой темы"
+    }
   },
   {
     "code": "en",
-    "label": "English"
+    "label": "English",
+    "lang": "en",
+    "base_url": "https://codergosha.com/en/",
+    "title": "CoderGosha",
+    "description": "CoderGosha",
+    "logo": "CoderGosha",
+    "ui": {
+      "menu_mobile_title": "Menu",
+      "intl_mobile_title": "Select language",
+      "dark_mode_toggle_title": "Switch dark and light theme"
+    }
   }
 ]
