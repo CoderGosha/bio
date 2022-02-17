@@ -1610,6 +1610,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0.25rem;
   }
 
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .md\:ml-4 {
     margin-left: 1rem;
   }
