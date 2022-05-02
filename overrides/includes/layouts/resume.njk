@@ -7,7 +7,7 @@ layout: layouts/patched-base.njk
 
 <div class="md:flex items-start flex-grow mt-4">
     <div class="md:flex-auto md:w-3/4 md:mr-4">
-        <h2 class="text-2xl md:text-4xl text-black dark:text-slate-200">Опыт</h2>
+        <h2 class="text-2xl md:text-4xl text-black dark:text-slate-200"> {{ header_experience }}</h2>
         <ul class="divide-y divide-slate-100">
             {% for job in jobs %}
             <article class="md:flex items-start space-x-6 mt-2 md:mt-6">
@@ -34,7 +34,7 @@ layout: layouts/patched-base.njk
                         {% for description in job.descriptions %}
                         <div class="w-full mt-2 font-normal md:text-lg">
                             <p class="text-left mx-4">{{ description.description }}</p>
-                            <p class="text-left  text-slate-700 dark:text-slate-300 mx-4">Технолгии: {{ description.technology }}</p>
+                            <p class="text-left  text-slate-700 dark:text-slate-300 mx-4">{{header_stack}}: {{ description.technology }}</p>
                         </div>
                         {% endfor %}
                     </dl>
@@ -76,7 +76,7 @@ layout: layouts/patched-base.njk
         </ul>
     </div>
     <div class="md:flex-auto md:w-1/4 flex-wrap md:ml-4">
-        <h2 class="text-2xl md:text-4xl mb-4 text-black dark:text-slate-200">Навыки</h2>
+        <h2 class="text-2xl md:text-4xl mb-4 text-black dark:text-slate-200">{{ header_skills }}</h2>
 
         {% for skill in skills %}
         <div class="my-4">

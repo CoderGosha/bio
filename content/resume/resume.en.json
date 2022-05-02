@@ -46,15 +46,15 @@
   ],
   "edu": [
     {
-      "name": "Череповецкий государственный университет",
+      "name": "Cherepovets State University",
       "work_period": "2009-2014 ",
       "site": "https://www.chsu.ru/",
-      "post": "Инженер-программист",
-      "work_type": "Обучение",
+      "post": "Engineer of programmer - Specialist (like master's degree)",
+      "work_type": "Education",
       "descriptions": [
         {
-          "description": "Программное обеспечение вычислительной техники и автоматизированных систем",
-          "result": "ВКР: Data Scales - система сбора информации с весоизмерительных устройств и контроллеров"
+          "description": "Software for Computers and Computer-Aided Systems",
+          "result": "Dissertation: Data Scales - data collection system from weighing devices and controllers"
         }
       ]
     }
@@ -68,7 +68,7 @@
         "EF Core",
         "Dapper",
         "SQL",
-        "Миграция .NET Framework -> .NET Core",
+        "Migration .NET Framework -> .NET Core",
         "Web API",
         "Swagger/Open api",
         "async/await",
