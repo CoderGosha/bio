@@ -1,44 +1,44 @@
 {
   "jobs": [
     {
-      "name": "Engy",
+      "name": "Engy company",
       "work_period": "2020-2022",
       "site": "http://www.en-gy.ru/",
-      "post": "Старший backend-разработчик",
-      "work_type": "Удаленная работа",
+      "post": "Senior backend developer",
+      "work_type": "Remote work",
       "descriptions": [
         {
-          "description": "Разработка высоконагруженных API (ASP .Net Core) для системы доставки посылок (постаматов) и интеграции с партнерами. Портирование ядра с ASP .NET на ASP .NET Core и разработка новых модулей. Интеграционные тесты, оптимизация скорости выполнения и потребления ресурсов.\nАктивная поддержка кода для Windows (IIS + Docker) и Linux (Nginx + Docker) ",
+          "description": "I’m developing a high load backend for a parcel delivery system. I’m doing integration with partners API. \nI ported and migrated the parcel delivery system from ASP .NET to ASP .NET Core. Integration tests, performance optimization. I’m actively supporting core for Windows (IIS + Docker + MSSQL) and Linux (nginx + docker + postgreSQL). \n",
           "technology": "TFS, Git.\nASP .Core, EF Core, Dapper, MSSQL, PostgreeSQL, Docker"
         },
         {
-          "description": "Пилотный проект клиента для постамата (Linux) на Python с использованием QT. Реализация клиента для встраиваемой системы и ограниченными ресурсами.\nУправление ячейками, банковский процессинг, получение и выдача посылок. ",
-          "technology": "Python, Sqlite, PySide"
+          "description": "Pilot client project for postamat on python. The client used QT and worked on an embodied system (raspberry pi). Device management, bank acquiring, receipt and delivering parcels.",
+          "technology": "Python, Sqlite, PySide, Raspberry Pi"
         }
       ]
     },
     {
-      "name": "ПСС. Софтвер",
+      "name": "PSS. Software Company",
       "work_period": "2018-2020",
       "site": "http://itpss.ru/",
-      "post": "Старший инженер-программист",
-      "work_type": "Удалённая работа ",
+      "post": "Senior software engineer",
+      "work_type": "Remote work",
       "descriptions": [
         {
-          "description": "Поддержка и разработка OPC UA Server (OPC Unified Architecture. NET Standard), а также микросервисами на ASP .Core для системы продажи билетов.\nВыполнял портирование и перенос приложений на платформу .NET Core для последующего запуска на ОС Linux. На проекте используем систему непрерывной поставки кода Azure DevOps Service.",
+          "description": "I supported and added new features to OPC Core (OPC Unified Architecture. NET Standard). I ported and migrated OPC Core from .NET Framework (Windows + MSSQL) to .NET Core (cross-platform). \nAnd I developed a microservice for the tickets bay system on ASP .Core. \nThe company used Microsoft Azure for build and deployment. \n",
           "technology": "TFS, Git.\nASP .Core, EF Core, MSSQL, PostgreeSQL, Docker, RabbitMQ"
         }
       ]
     },
     {
-      "name": "Дата-Центр Автоматика",
+      "name": "Data Center Automatization Company",
       "work_period": "2014-2018",
       "site": "https://dc.ru/",
-      "post": "Инженер-программист",
-      "work_type": "Офис",
+      "post": "Engineer of programmer",
+      "work_type": "Office",
       "descriptions": [
         {
-          "description": "Разработка производственных систем в металлургии, работающих в режиме реального времени. \nРабота с физическими устройствами, сбор данных в реальном времени, аналитика производственных процессов и разработка модулей для системы слежения за металлом. \nСистема сбора данных с весоизмерительных устройств. ",
+          "description": "I participated in the development of manufacturing real-time system tracking (level 2). \nCollection data real-time, analyze manufacturing processes, integration with manufacturing microcontrollers. I developed modules for tracking systems. I developed and supported a data collection system from weighing devices and controllers.\n ",
           "technology": "Git, SVN\nASP.NET, EF, MVC, WCF, REST, SOAP, SQL, MS SQL, Oracle,  UnitTests, JavaScript, С#, С++, HTML, CSS "
         }
       ]
@@ -119,7 +119,7 @@
         "DigitalOcean",
         "Azure",
         "VirtualBox",
-        "Embedded Systems (Raspberry Pi, ТСД)"
+        "Embedded Systems (Raspberry Pi, PDT)"
       ]
     },
     {
