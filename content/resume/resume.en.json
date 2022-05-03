@@ -1,18 +1,18 @@
 {
   "jobs": [
     {
-      "name": "Engy company",
+      "name": "Engy Company",
       "work_period": "2020-2022",
       "site": "http://www.en-gy.ru/",
       "post": "Senior backend developer",
-      "work_type": "Remote work",
+      "work_type": "Remote",
       "descriptions": [
         {
           "description": "I’m developing a high load backend for a parcel delivery system. I’m doing integration with partners API. \nI ported and migrated the parcel delivery system from ASP .NET to ASP .NET Core. Integration tests, performance optimization. I’m actively supporting core for Windows (IIS + Docker + MSSQL) and Linux (nginx + docker + postgreSQL). \n",
           "technology": "TFS, Git.\nASP .Core, EF Core, Dapper, MSSQL, PostgreeSQL, Docker"
         },
         {
-          "description": "Pilot client project for postamat on python. The client used QT and worked on an embodied system (raspberry pi). Device management, bank acquiring, receipt and delivering parcels.",
+          "description": "Pilot client project for postamat on python. The client used QT and worked on an embodied system (raspberry pi). Device management, bank acquiring, receiving and delivering parcels.",
           "technology": "Python, Sqlite, PySide, Raspberry Pi"
         }
       ]
@@ -22,10 +22,10 @@
       "work_period": "2018-2020",
       "site": "http://itpss.ru/",
       "post": "Senior software engineer",
-      "work_type": "Remote work",
+      "work_type": "Remote",
       "descriptions": [
         {
-          "description": "I supported and added new features to OPC Core (OPC Unified Architecture. NET Standard). I ported and migrated OPC Core from .NET Framework (Windows + MSSQL) to .NET Core (cross-platform). \nAnd I developed a microservice for the tickets bay system on ASP .Core. \nThe company used Microsoft Azure for build and deployment. \n",
+          "description": "I supported and added new features to OPC Core (OPC Unified Architecture. NET Standard). I ported and migrated OPC Core from .NET Framework (Windows + MSSQL) to .NET Core (cross-platform). \nAnd I developed a microservice for the tickets bay system on ASP .Core. \nThe company used Microsoft Azure for building and deployment. \n",
           "technology": "TFS, Git.\nASP .Core, EF Core, MSSQL, PostgreeSQL, Docker, RabbitMQ"
         }
       ]
@@ -34,11 +34,11 @@
       "name": "Data Center Automatization Company",
       "work_period": "2014-2018",
       "site": "https://dc.ru/",
-      "post": "Engineer of programmer",
+      "post": "Software engineer",
       "work_type": "Office",
       "descriptions": [
         {
-          "description": "I participated in the development of manufacturing real-time system tracking (level 2). \nCollection data real-time, analyze manufacturing processes, integration with manufacturing microcontrollers. I developed modules for tracking systems. I developed and supported a data collection system from weighing devices and controllers.\n ",
+          "description": "I participated in the development of manufacturing real-time system tracking (level 2)\nReal time collection data, analysis manufacturing processes, integration with manufacturing microcontrollers. I developed tracking systems modules. I developed and supported a data collection system from weighing devices and controllers. \n",
           "technology": "Git, SVN\nASP.NET, EF, MVC, WCF, REST, SOAP, SQL, MS SQL, Oracle,  UnitTests, JavaScript, С#, С++, HTML, CSS "
         }
       ]
@@ -49,7 +49,7 @@
       "name": "Cherepovets State University",
       "work_period": "2009-2014 ",
       "site": "https://www.chsu.ru/",
-      "post": "Engineer of programmer - Specialist (like master's degree)",
+      "post": "Software engineer - Specialist (like master's degree)",
       "work_type": "Education",
       "descriptions": [
         {
