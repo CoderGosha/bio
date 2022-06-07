@@ -6,7 +6,7 @@
     "order": 4
   },
   "name": "Igor Pakholkov",
-  "header": "Senior Software Engineer",
+  "header": "Lead Software Engineer",
   "links": [
     {
     "title": "LinkedIn",
