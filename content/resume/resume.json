@@ -119,7 +119,8 @@
         "DigitalOcean",
         "Azure",
         "VirtualBox",
-        "Embedded Systems (Raspberry Pi, ТСД)"
+        "Embedded Systems (Raspberry Pi, ТСД)",
+        "Garmin Watch (Monkey C)"
       ]
     },
     {

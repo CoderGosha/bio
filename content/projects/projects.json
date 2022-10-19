@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "name": "Starline Lite",
+      "work_period": "2022",
+      "site": "https://apps.garmin.com/en-US/apps/60efc5cc-928e-4d12-a637-f00a3493682b",
+      "site_name": "Garmin Store",
+      "description": {
+        "description": "Приложение для работы с автосигнализацией Starline.\nПоказывает статус авто, открывает и закрывает машину.\nТакже для корректной авторизации создано прокси апи на python-flask, так как API сигнализации вместо токена возвращает cookie не поддерживаемые на устройстве.\n Написано на Monkey C.",
+        "technology": "Garmin, monkey C, rest, watch, flask"
+      }
+    },
+    {
       "name": "Ad Notify Manager",
       "work_period": "2022",
       "site": "https://github.com/CoderGosha/AdNotifyManager",
