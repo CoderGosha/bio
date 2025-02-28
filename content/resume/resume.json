@@ -1,6 +1,19 @@
 {
   "jobs": [
     {
+      "name": "ООО Гервиг",
+      "work_period": "2023",
+      "site": "https://gervig.ru/",
+      "post": "Руководитель группы разработки на C#",
+      "work_type": "Удаленная работа",
+      "descriptions": [
+        {
+          "description": "Проектирование и разработка ядра системы для автоматизации пищевого производства. Интеграция с аппаратным обеспечением, работа с бинарными протоколами без документации. Использование Event-driven architecture и Kafka для быстрой и надежной передачи сообщений между сервисами. Проведение code review и наставничество разработчиков. Разработка и оптимизация микросервисов, нагрузочное тестирование.",
+          "technology": "ASP.NET Core, EF Core, PostgreSQL, Docker, Kafka, OpenSearch, CQRS, event-driven architecture."
+        }
+      ]
+    },
+    {
       "name": "Engy",
       "work_period": "2020-2023",
       "site": "http://www.en-gy.ru/",

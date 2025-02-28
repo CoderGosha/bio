@@ -2,3 +2,7 @@ dist
 node_modules
 .idea
 prebuilt
+
+content/.DS_Store
+
+.DS_Store
